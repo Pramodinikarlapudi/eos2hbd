@@ -1,0 +1,390 @@
+11:29:46 | DEBUG    | Trying to get metadata from: /home/divya_karlapudi/eos/dest/eos2hbd
+⬇️  Fetching model eos2hbd: passive-permeability
+11:29:48 | DEBUG    | Initialized with URL: None
+11:29:48 | DEBUG    | Getting model source
+11:29:48 | DEBUG    | Model getting fetched from DockerHub
+11:29:48 | INFO     | Model doesn't exist on your system, fetching it now.
+11:29:48 | DEBUG    | Starting fetching procedure
+11:29:48 | DEBUG    | Decided to fetch from DockerHub
+11:29:49 | DEBUG    | Fetching from DockerHub
+11:29:49 | DEBUG    | Pulling model image from DockerHub
+11:29:49 | DEBUG    | Image ersiliaos/eos2hbd:latest is not available locally
+11:29:49 | DEBUG    | Docker image of the model is not available locally
+11:29:49 | DEBUG    | The docker image ersiliaos/eos2hbd:latest exists in DockerHub
+11:29:49 | DEBUG    | Pulling image ersiliaos/eos2hbd:latest from DockerHub...
+11:29:49 | DEBUG    | Trying to pull image ersiliaos/eos2hbd
+11:29:53 | INFO     | latest: Pulling from ersiliaos/eos2hbd
+11:29:54 | INFO     | 9b7ce807706c: Pulling fs layer
+11:29:54 | INFO     | d7d28076186e: Pulling fs layer
+11:29:54 | INFO     | 4f4fb700ef54: Pulling fs layer
+11:29:54 | INFO     | 1aebfdfd0e2b: Pulling fs layer
+11:29:54 | INFO     | a2179e6574b0: Pulling fs layer
+11:29:54 | INFO     | da16e6b72562: Pulling fs layer
+11:29:54 | INFO     | 658c66f97b35: Pulling fs layer
+11:29:54 | INFO     | 198c75e03f67: Pulling fs layer
+11:29:54 | INFO     | 411018f3e999: Pulling fs layer
+11:29:54 | INFO     | 4f4fb700ef54: Already exists
+11:29:54 | INFO     | 4f4fb700ef54: Pull complete
+11:29:55 | INFO     | 9b7ce807706c: Download complete
+11:29:56 | INFO     | da16e6b72562: Download complete
+11:29:56 | INFO     | 658c66f97b35: Download complete
+11:29:56 | INFO     | 411018f3e999: Download complete
+11:29:59 | INFO     | 198c75e03f67: Download complete
+11:30:13 | INFO     | d7d28076186e: Download complete
+11:30:14 | INFO     | d7d28076186e: Pull complete
+11:30:21 | INFO     | 1aebfdfd0e2b: Download complete
+11:31:28 | INFO     | a2179e6574b0: Download complete
+11:32:08 | INFO     | a2179e6574b0: Pull complete
+11:32:16 | INFO     | 1aebfdfd0e2b: Pull complete
+11:32:16 | INFO     | 198c75e03f67: Pull complete
+11:32:16 | INFO     | 9b7ce807706c: Pull complete
+11:32:16 | INFO     | da16e6b72562: Pull complete
+11:32:16 | INFO     | 658c66f97b35: Pull complete
+11:32:16 | INFO     | 411018f3e999: Pull complete
+11:32:16 | INFO     | Digest: sha256:6fa95bfa32f7243e132d1bca62426f94ea66b91640fef1b8bb992b4eeedd2104
+11:32:16 | INFO     | Status: Downloaded newer image for ersiliaos/eos2hbd:latest
+11:32:17 | INFO     | docker.io/ersiliaos/eos2hbd:latest
+11:32:17 | DEBUG    | Image pulled successfully!
+11:32:17 | DEBUG    | Size of image 698.3596601486206 MB
+11:32:17 | DEBUG    | Asynchronous and concurrent execution started!
+11:32:17 | DEBUG    | Registering model eos2hbd in the file system
+11:32:17 | DEBUG    | /home/divya_karlapudi/eos/dest/eos2hbd
+11:32:17 | DEBUG    | /home/divya_karlapudi/eos/dest/eos2hbd/from_dockerhub.json
+11:32:17 | DEBUG    | Writing service class pulled_docker /home/divya_karlapudi/eos/repository/eos2hbd/20250408113217/service_class.txt
+11:32:17 | DEBUG    | Writing APIs
+11:32:17 | DEBUG    | Using port 53369
+11:32:17 | DEBUG    | Starting Docker Daemon service
+11:32:17 | DEBUG    | Creating container tmp logs folder /home/divya_karlapudi/eos/sessions/session_399/_logs/tmp and mounting as volume in container
+11:32:17 | INFO     | Docker network already exists: ersilia_network
+11:32:17 | DEBUG    | Stopping all containers related to model eos2hbd
+11:32:17 | DEBUG    | Trying to run container
+11:32:19 | DEBUG    | Serving container eos2hbd_12e0
+11:32:19 | DEBUG    | Running container b01f4b9e22e813358e662892423ead9f1c6b8276955b474237276a59791b66ad
+11:32:19 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:20 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:21 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:22 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:23 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:24 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:25 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:26 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:27 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:28 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:29 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:30 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:31 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:32 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:33 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:34 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:35 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:36 | DEBUG    | Container in http://0.0.0.0:53369 is not ready yet
+11:32:37 | DEBUG    | Getting APIs
+11:32:37 | DEBUG    | Getting them using info endpoint
+11:32:37 | DEBUG    | Using URL: http://0.0.0.0:53369/info
+11:32:37 | DEBUG    | Status code: 200
+11:32:37 | DEBUG    | Writing file /home/divya_karlapudi/eos/repository/eos2hbd/20250408113217/apis_list.txt
+11:32:37 | DEBUG    | ['predict']
+11:32:37 | DEBUG    | Stopping and removing container
+11:32:37 | DEBUG    | Stopping all containers related to model eos2hbd
+11:32:38 | DEBUG    | Stopping and removing container eos2hbd_12e0
+11:32:38 | DEBUG    | Deleted temp file ersilia-lbw3gbpv from container eos2hbd_12e0
+11:32:38 | DEBUG    | Deleted temp file ersilia-r8j8ypqi from container eos2hbd_12e0
+11:32:38 | DEBUG    | Deleted temp file ersilia-tw3jcwbo from container eos2hbd_12e0
+11:32:38 | DEBUG    | Deleted temp file  from container eos2hbd_12e0
+11:32:49 | DEBUG    | Container stopped
+11:32:49 | DEBUG    | Container removed
+11:32:49 | DEBUG    | Copying information file from model container
+11:32:49 | DEBUG    | Resolving pack method
+11:32:49 | DEBUG    | Resolved pack method: bentoml
+11:32:50 | DEBUG    | Copying api_schema_file file from model container
+11:32:51 | DEBUG    | Copying status file from model container
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework/examples" does not exist
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework/examples" does not exist
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework" does not exist
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework/examples" does not exist
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework" does not exist
+Error response from daemon: Could not find the file /root/eos/dest/eos2hbd/example.csv in container 7a8e5629-8b73-486c-970e-cc8357ba7a3e
+invalid output path: directory "/home/divya_karlapudi/eos/dest/eos2hbd/model/framework/examples" does not exist
+11:33:00 | DEBUG    | Running standard CSV example
+11:33:00 | DEBUG    | /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_input.csv
+11:33:00 | DEBUG    | /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_output.csv
+11:33:05 | DEBUG    | Usage: ersilia [OPTIONS] COMMAND [ARGS]...
+
+  🦠 Welcome to Ersilia! 💊
+
+Options:
+  --version      Show the version and exit.
+  -v, --verbose  Show logging on terminal when running commands.
+  -s, --silent   Do not echo any progress message.
+  --help         Show this message and exit.
+
+Commands:
+  auth       Log in to ersilia to enter contributor mode.
+  catalog    List a catalog of models
+  close      Close model
+  delete     Delete model from local computer
+  example    Generate input examples for the model of interest
+  fetch      Fetch model from Ersilia Model Hub
+  info       Get model information
+  run        Run a served model
+  serve      Serve model
+  test       Test a model
+  uninstall  Uninstall ersilia
+
+11:33:05 | DEBUG    | No need to use Conda!
+11:33:41 | INFO     | Run log: 11:33:35 | DEBUG    | Getting session from /home/divya_karlapudi/eos/sessions/session_3790/session.json
+11:33:35 | DEBUG    | Getting session from /home/divya_karlapudi/eos/sessions/session_3790/session.json
+11:33:35 | DEBUG    | Getting session from /home/divya_karlapudi/eos/sessions/session_3790/session.json
+11:33:35 | DEBUG    | Getting session from /home/divya_karlapudi/eos/sessions/session_3790/session.json
+11:33:35 | DEBUG    | Is fetched: True
+11:33:35 | DEBUG    | Schema available in /home/divya_karlapudi/eos/dest/eos2hbd/api_schema.json
+11:33:35 | DEBUG    | Setting BentoML AutoService for eos2hbd
+11:33:35 | INFO     | Docker is available and running.
+11:33:35 | INFO     | Service class provided
+11:33:35 | DEBUG    | Using port 36835
+11:33:35 | DEBUG    | Starting Docker Daemon service
+11:33:35 | DEBUG    | Creating container tmp logs folder /home/divya_karlapudi/eos/sessions/session_3790/_logs/tmp and mounting as volume in container
+11:33:35 | DEBUG    | Image ersiliaos/eos2hbd:latest is available locally
+11:33:35 | DEBUG    | Using port 60137
+11:33:35 | DEBUG    | Starting Docker Daemon service
+11:33:35 | DEBUG    | Creating container tmp logs folder /home/divya_karlapudi/eos/sessions/session_3790/_logs/tmp and mounting as volume in container
+11:33:35 | INFO     | Done with initialization!
+11:33:35 | INFO     | Starting runner
+11:33:35 | DEBUG    | Trying standard API
+11:33:35 | INFO     | You are running the app with a standard runner. Beware that this runner does not do as many checks on the input as the conventional runner: use it at your own risk.
+11:33:35 | DEBUG    | Standard API processor started at http://0.0.0.0:37129
+11:33:35 | DEBUG    | This is the input type: ['Compound']
+11:33:35 | WARNING  | Standard run did not work with exception expected str, bytes or os.PathLike object, not NoneType
+11:33:35 | DEBUG    | We will try conventional run.
+11:33:35 | DEBUG    | Trying conventional run
+11:33:35 | DEBUG    | Reading card from eos2hbd
+11:33:35 | DEBUG    | Reading shape from eos2hbd
+11:33:35 | DEBUG    | Input Shape: None
+11:33:35 | DEBUG    | Input type is: compound
+11:33:35 | DEBUG    | Input shape is: Single
+11:33:35 | DEBUG    | Importing module: .types.compound
+11:33:35 | DEBUG    | Checking RDKIT and other requirements necessary for compound inputs
+11:33:35 | DEBUG    | InputShapeSingle shape: Single
+11:33:35 | DEBUG    | Expected number: 1
+11:33:35 | DEBUG    | Entity is list: False
+11:33:35 | DEBUG    | Resolving columns
+11:33:35 | DEBUG    | Done with sniffing the file
+11:33:35 | DEBUG    | Input: {1: 3}
+11:33:35 | DEBUG    | Key: {0: 3}
+11:33:35 | DEBUG    | Key: [0]
+11:33:35 | DEBUG    | Input: [1]
+11:33:35 | DEBUG    | Candidate header is ['key', 'input', 'text']
+11:33:35 | DEBUG    | Matching for input is [1]
+11:33:35 | DEBUG    | Has header True
+11:33:35 | DEBUG    | Schema {'input': [1], 'key': [0]}
+11:33:35 | DEBUG    | Standardizing input single
+11:33:35 | DEBUG    | Writing standardized input to /tmp/ersilia-ixa195ha/standard_input_file.csv
+11:33:35 | DEBUG    | Reading standard file from /tmp/ersilia-ixa195ha/standard_input_file.csv
+11:33:35 | DEBUG    | File has 4 lines
+11:33:35 | DEBUG    | No file splitting necessary!
+11:33:35 | DEBUG    | Reading card from eos2hbd
+11:33:35 | DEBUG    | Reading shape from eos2hbd
+11:33:35 | DEBUG    | Input Shape: None
+11:33:35 | DEBUG    | Input type is: compound
+11:33:35 | DEBUG    | Input shape is: Single
+11:33:35 | DEBUG    | Importing module: .types.compound
+11:33:35 | DEBUG    | Checking RDKIT and other requirements necessary for compound inputs
+11:33:35 | DEBUG    | InputShapeSingle shape: Single
+11:33:35 | DEBUG    | API eos2hbd:predict initialized at URL http://0.0.0.0:37129
+11:33:35 | DEBUG    | Schema available in /home/divya_karlapudi/eos/dest/eos2hbd/api_schema.json
+11:33:35 | DEBUG    | Posting to predict
+11:33:35 | DEBUG    | Batch size 100
+11:33:35 | DEBUG    | Expected number: 1
+11:33:35 | DEBUG    | Entity is list: False
+11:33:35 | DEBUG    | Resolving columns
+11:33:35 | DEBUG    | Done with sniffing the file
+11:33:35 | DEBUG    | Input: {1: 3}
+11:33:35 | DEBUG    | Key: {0: 3}
+11:33:35 | DEBUG    | Key: [0]
+11:33:35 | DEBUG    | Input: [1]
+11:33:35 | DEBUG    | Candidate header is ['key', 'input', 'text']
+11:33:35 | DEBUG    | Matching for input is [1]
+11:33:35 | DEBUG    | Has header True
+11:33:35 | DEBUG    | Schema {'input': [1], 'key': [0]}
+11:33:35 | DEBUG    | Standardizing input single
+11:33:35 | DEBUG    | Writing standardized input to /tmp/ersilia-vjqtcc4a/standard_input_file.csv
+11:33:35 | DEBUG    | Reading standard file from /tmp/ersilia-vjqtcc4a/standard_input_file.csv
+11:33:35 | DEBUG    | Schema available in /home/divya_karlapudi/eos/dest/eos2hbd/api_schema.json
+11:33:35 | DEBUG    | Not amenable to HDF5 serialization
+11:33:35 | DEBUG    | Posting only calculations
+11:33:40 | DEBUG    | Status code: 200
+11:33:40 | DEBUG    | Api was not run
+11:33:40 | DEBUG    | Adapting generic
+11:33:40 | DEBUG    | Schema available in /home/divya_karlapudi/eos/dest/eos2hbd/api_schema.json
+11:33:40 | DEBUG    | Returning result
+Traceback (most recent call last):
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/bin/ersilia", line 8, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/lib/python3.12/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/lib/python3.12/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/lib/python3.12/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/lib/python3.12/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/divya_karlapudi/miniconda3/envs/ersilia/lib/python3.12/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/cli/commands/__init__.py", line 31, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/cli/commands/run.py", line 69, in run
+    result = mdl.run(
+             ^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/core/model.py", line 800, in run
+    result = self._run(
+             ^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/core/model.py", line 727, in _run
+    result = self.api(
+             ^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/core/model.py", line 596, in api
+    return self.api_task(
+           ^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/core/model.py", line 633, in api_task
+    for r in result:
+             ^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/core/model.py", line 365, in _api_runner_iter
+    for result in api.post(input=input, output=output, batch_size=batch_size):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 187, in post
+    for res in self.post_unique_input(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 401, in post_unique_input
+    for res in self.post_only_calculations(input, output, batch_size):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 255, in post_only_calculations
+    result = json.loads(self._post(input, output))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 157, in _post
+    result = self._standardize_schema(result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 534, in _standardize_schema
+    outcome_key, reference_keys = self._load_api_schema()
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/my100/ersilia/ersilia/serve/api.py", line 487, in _load_api_schema
+    raise ValueError("No output schema found in the API schema file.")
+ValueError: No output schema found in the API schema file.
+
+11:33:41 | ERROR    | Ersilia exception class:
+StandardModelExampleError
+
+Detailed error:
+Standard model run from CSV was not possible for model eos2hbd
+Output file /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_output.csv was not created successfully
+
+Hints:
+If you fetch this model from Docker Hub, or you are running it through URL, this is the first time run is executed in your local computer. Reach out to Ersilia to get specific help.
+
+c39aac5ae739f4f8921cba709c8b11cc462d924961dcb9852cdc9c580d009c97
+2aef1fb2-a41b-454d-aa08-a5a105c19aed
+e2c5193b899f49039058bb919d5080924fee1d5d9491564c4489616f21e20cb3
+05e738bf-28ff-46c6-aa36-a3259e08ca5f
+7ac2d6f2897f591fd702a83399b33fe6f777a1c827a3f0ace4dd48f39e48e4db
+a5f9ba7e-59d1-4832-8677-ae5fe3a43bb8
+282c71c1c8d37a99099ca22cc6fb36d756199c114e6d1e8c0e4f8e5504eb735d
+6affc6c3-1d93-43b7-afa2-ffc082693520
+a9d7e34d7371fc5f6e3fb59994217f81325a4ec590ccb61ab7ac269302edef3a
+715e2efb-c834-4dfa-87d6-27bcc07ade49
+525521e606354812dbd45f5af4ba51df8ab77c4d24f83aa8749c425cf17c5ad5
+a18f6280-4154-437f-a118-c4393a80de49
+954754a5924ea8a295a93bfc2ea7c9941195dad590302105275ce04b91677b05
+c21d5642-6549-4ae4-b99f-e2e41c6fed6f
+fd264b4ba3183e86ec19f9498df9790e937cc7f42a2076618fe2f55a3be4971d
+3d9dcb05-327e-46d2-9285-2ee84e98501c
+ce6a713dee92e352cba2b93fcfae842cd81fda8288e073d28116ceb0a7a4e829
+7a8e5629-8b73-486c-970e-cc8357ba7a3e
+c7d49751aa3c184ed791a0b3dcc10844aff282cef6f052c4d1a399e4deb4709f
+2aa16d59-3044-422f-a87a-d0581e48e62f
+🚀 Serving model eos2hbd: passive-permeability
+
+   URL: http://0.0.0.0:37129
+   PID: -1
+   SRV: pulled_docker
+   Output source: local-only
+
+👉 To run model:
+   - run
+
+   These APIs are also valid:
+   - predict
+
+💁 Information:
+   - info
+🚨🚨🚨 Something went wrong with Ersilia 🚨🚨🚨
+
+Error message:
+
+Ersilia exception class:
+StandardModelExampleError
+
+Detailed error:
+Standard model run from CSV was not possible for model eos2hbd
+Output file /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_output.csv was not created successfully
+
+Hints:
+If you fetch this model from Docker Hub, or you are running it through URL, this is the first time run is executed in your local computer. Reach out to Ersilia to get specific help.
+
+If this error message is not helpful, open an issue at:
+ - https://github.com/ersilia-os/ersilia
+Or feel free to reach out to us at:
+ - hello[at]ersilia.io
+
+If you haven't, try to run your command in verbose mode (-v in the CLI)
+ - You will find the console log file in: /home/divya_karlapudi/eos/current.log
+11:33:41 | DEBUG    | StandardModelExampleError occurred: Ersilia exception class:
+StandardModelExampleError
+
+Detailed error:
+Standard model run from CSV was not possible for model eos2hbd
+Output file /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_output.csv was not created successfully
+
+Hints:
+If you fetch this model from Docker Hub, or you are running it through URL, this is the first time run is executed in your local computer. Reach out to Ersilia to get specific help.
+
+Do you want to delete the model artifacts? [Y/n]
+11:33:46 | INFO     | Starting delete of model eos2hbd
+11:33:46 | INFO     | Removing EOS folder /home/divya_karlapudi/eos/dest/eos2hbd
+11:33:46 | INFO     | Removing bento folder first /home/divya_karlapudi/bentoml/repository/eos2hbd/20250408110007_4AE426
+11:33:46 | INFO     | Removing bundle folder /home/divya_karlapudi/eos/repository/eos2hbd
+11:33:46 | DEBUG    | Folder removed
+11:33:46 | DEBUG    | Attempting Bento delete
+11:33:46 | DEBUG    | Looking for BentoML catalog
+11:34:09 | DEBUG    | No BentoML Catalog available
+11:34:09 | DEBUG    | Attempting temporary folder delete
+11:34:09 | DEBUG    | Attempting lake delete (local)
+11:34:09 | DEBUG    | Deleting /home/divya_karlapudi/eos/isaura/lake/eos2hbd_local.h5
+11:34:09 | DEBUG    | Attempting lake delete (public)
+11:34:09 | DEBUG    | Deleting /home/divya_karlapudi/eos/isaura/lake/eos2hbd_public.h5
+11:34:09 | INFO     | Removing docker images and stopping containers related to eos2hbd
+11:34:09 | DEBUG    | Running docker images > /tmp/ersilia-m_68mo54/docker-images.txt
+11:34:09 | DEBUG    | Removing docker image 6fa95bfa32f7
+11:34:10 | DEBUG    | A running container was found dd30b1b4b87b. Removing it before the image
+11:34:22 | DEBUG    | Model entry eos2hbd was not available in the fetched models registry
+11:34:22 | SUCCESS  | Model eos2hbd deleted successfully
+11:34:22 | INFO     | ✅ Model 'eos2hbd' artifacts have been successfully deleted.
+Total reclaimed space: 0B
+dd30b1b4b87b
+dd30b1b4b87b
+Untagged: ersiliaos/eos2hbd:latest
+Deleted: sha256:6fa95bfa32f7243e132d1bca62426f94ea66b91640fef1b8bb992b4eeedd2104
+👎 Model eos2hbd failed to fetch! Ersilia exception class:
+StandardModelExampleError
+
+Detailed error:
+Standard model run from CSV was not possible for model eos2hbd
+Output file /home/divya_karlapudi/eos/dest/eos2hbd/example_standard_output.csv was not created successfully
+
+Hints:
+If you fetch this model from Docker Hub, or you are running it through URL, this is the first time run is executed in your local computer. Reach out to Ersilia to get specific help.
+
